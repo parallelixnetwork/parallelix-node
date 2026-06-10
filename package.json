@@ -1,0 +1,12 @@
+{
+  "name": "parallelix-node",
+  "version": "1.2.1",
+  "description": "ParalleliX node operator client. Attach a CPU/GPU machine to a node registered on-chain, send liveness heartbeats, and serve dispatched inference with Proof-of-Execution.",
+  "type": "module",
+  "bin": { "parallelix-node": "parallelix-node.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/parallelixnetwork/parallelix-node.git" },
+  "homepage": "https://parallelix.io/node-cli",
+  "dependencies": { "@noble/secp256k1": "^2.1.0" }
+}
